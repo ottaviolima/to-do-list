@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/fonts.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="To-Do List, Lista de tarefas">
+
+    <title>To-Do List</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3600/3600955.png" type="image/x-icon">
+</head>
+<body>
+    <div id="app">
+        <img src="https://cdn-icons-png.flaticon.com/128/3600/3600955.png" alt="Logo">
+        <h1>To-do List</h1>
+    </div>
+    <div class="content">
+        <div class="content-add-item">
+            <button id="button-remove-all" title="Clique para remover todas as tarefas">
+                <i class="ph ph-trash"></i>
+            </button>
+            <input type="text" id="input-new-task" placeholder="Digite sua nova tarefa">
+            <button id="btn-new-task" title="Clique para adicionar uma nova tarefa">
+                <i class="ph ph-plus"></i>
+            </button>
+        </div>
+        <div class="content--body">
+            <ul id="to-do-list">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</html>
